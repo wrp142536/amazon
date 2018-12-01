@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AmazonApplication {
 
 	public static void main(String[] args) {
+		System.out.println("AmazonApplication.main()");
 		SpringApplication.run(AmazonApplication.class, args);
 	}
 }

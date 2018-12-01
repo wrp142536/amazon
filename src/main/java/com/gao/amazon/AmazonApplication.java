@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AmazonApplication {
 
 	public static void main(String[] args) {
+		System.err.println("11111111111111111111111");
 		SpringApplication.run(AmazonApplication.class, args);
 	}
 }
